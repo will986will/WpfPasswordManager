@@ -4,10 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfPasswordManager"
+        xmlns:userControls="clr-namespace:WpfPasswordManager.View.UserControls"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Name="btnTest" HorizontalAlignment="Center" VerticalAlignment="Center" Content="Test DB conn" Height="50" Width="100" FontSize="16" Click="btnTest_Click"/>
+        <userControls:ToggleablePasswordBox VerticalAlignment="Center" HorizontalAlignment="Center" Height="40" Width="250"/>
         <TextBlock Name="txtTest" Text="" HorizontalAlignment="Center" VerticalAlignment="Bottom"/>
     </Grid>
 </Window>
