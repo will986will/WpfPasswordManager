@@ -16,10 +16,5 @@ namespace WpfPasswordManager
             MainWindowViewModel vm = new MainWindowViewModel();
             DataContext = vm;
         }
-
-        private void btnTest_Click(object sender, RoutedEventArgs e)
-        {
-            
-        }
     }
 }
